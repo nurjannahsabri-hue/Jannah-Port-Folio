@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QA & Projects | Nur Jannah Sabri</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar container">
+            <div class="logo">N.J. SABRI</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Back to Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero small-hero">
+        <div class="container">
+            <h1>QA Portfolio & Work Samples</h1>
+            <p>Test Cases, Bug Reports, Flows & System Development</p>
+        </div>
+    </section>
+
+    <section class="section container">
+        <!-- QA Documents -->
+        <h3 class="section-title">Quality Assurance Documentation</h3>
+        <div class="portfolio-grid">
+            <div class="port-card">
+                <i class="fas fa-file-alt icon-large"></i>
+                <h4>Login Test Cases</h4>
+                <p>Comprehensive test scenarios for user authentication.</p>
+                <!-- Link to your actual file here later -->
+                <a href="#" class="btn-sm">View Document</a>
+            </div>
+            <div class="port-card">
+                <i class="fas fa-file-contract icon-large"></i>
+                <h4>Registration Test Cases</h4>
+                <p>Validation rules and database entry checks.</p>
+                <a href="#" class="btn-sm">View Document</a>
+            </div>
+            <div class="port-card">
+                <i class="fas fa-bug icon-large"></i>
+                <h4>Bug Report Examples</h4>
+                <ul class="text-left">
+                    <li>#1: Login button unresponsive</li>
+                    <li>#2: Incorrect error message</li>
+                </ul>
+                <a href="#" class="btn-sm">View Reports</a>
+            </div>
+            <div class="port-card">
+                <i class="fas fa-clipboard-check icon-large"></i>
+                <h4>UAT Summary Report</h4>
+                <p>Test scope, cycles, defect summary & recommendations.</p>
+                <a href="#" class="btn-sm">View Summary</a>
+            </div>
+        </div>
+
+        <!-- Flowchart Section -->
+        <div class="flowchart-section">
+            <h3 class="section-title">System Flow: Login Process</h3>
+            <div class="flowchart-container">
+                <div class="flow-step start">Start</div>
+                <div class="arrow">↓</div>
+                <div class="flow-step">User opens Login Page</div>
+                <div class="arrow">↓</div>
+                <div class="flow-step">Enter Email & Password</div>
+                <div class="arrow">↓</div>
+                
+                <div class="decision-box">
+                    <div class="decision">Valid Email?</div>
+                    <div class="branches">
+                        <div class="branch no">No → Show Error → End</div>
+                        <div class="branch yes">Yes ↓</div>
+                    </div>
+                </div>
+
+                <div class="decision-box">
+                    <div class="decision">Password Correct?</div>
+                    <div class="branches">
+                        <div class="branch no">No → Show Incorrect Password → End</div>
+                        <div class="branch yes">Yes ↓</div>
+                    </div>
+                </div>
+
+                <div class="flow-step">Authenticate User</div>
+                <div class="arrow">↓</div>
+                <div class="flow-step">Redirect to Dashboard</div>
+                <div class="arrow">↓</div>
+                <div class="flow-step end">End</div>
+            </div>
+        </div>
+
+        <!-- Development Projects -->
+        <h3 class="section-title">System Development Projects</h3>
+        <div class="dev-project">
+            <div class="dev-content">
+                <h4>E-Commerce Web System (Final Year Project)</h4>
+                <p>Developed using <strong>HTML, CSS, JS, PHP, MySQL</strong>.</p>
+                <ul>
+                    <li>Designed database structure and backend logic.</li>
+                    <li>Features: Product listing, Add to Cart, Admin Panel.</li>
+                    <li>Improved data visibility for reporting.</li>
+                </ul>
+                <div class="card-links">
+                    <a href="#" class="btn">View Screenshots</a>
+                    <a href="#" class="btn-outline">View Code</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Nur Jannah Sabri.</p>
+    </footer>
+
+</body>
+</html>
